@@ -3,9 +3,9 @@
     Functions in C
 */
 
-
-// Function without argument and return value
 /*
+// Function without argument and return value
+
 #include<stdio.h>  
 void printName(); // Function Declaration
 void sum();  // Function Declaration
@@ -30,11 +30,11 @@ void sum()  // Function Definition
     scanf("%d %d", &a,&b);
     printf("The sum is %d\n",a+b);
 }
-*/
+
 
 // Function without argument and with return value
 // Example 1
-/*
+
 #include<stdio.h>  
 int sum();  
 void main()  
@@ -51,9 +51,9 @@ int sum()
     scanf("%d %d",&a,&b);  
     return a+b;   
 }  
-*/
+
 // Example 2: program to calculate the area of the square
-/*
+
 #include<stdio.h>  
 int square();
 void main()
@@ -70,9 +70,9 @@ int square()
     scanf("%f", &side);
     return side*side;
 }
-*/
+
 // Example for Function with argument and without return value
-/*
+
 #include <stdio.h>
 void sum(int, int);
 void main()
@@ -88,7 +88,7 @@ void sum(int a, int b)
 {
     printf("\nThe sum is %d", a+b);
 }
-*/
+
 
 // Example 2: Program to calculate the average of five numbers
 #include<stdio.h>  
@@ -110,7 +110,7 @@ void average(int a, int b, int c, int d, int e)
 
 // Example for Function with argument and with return value
 // Example 1
-/*
+
 #include <stdio.h>
 int average(int, int, int, int, int);
 void main()
@@ -130,4 +130,5 @@ int average(int a, int b, int c, int d, int e)
     //printf("The average of given five numbers is: %f", avg);
     return (a+b+c+d+e)/5;
 }
+
 */
